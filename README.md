@@ -102,3 +102,28 @@ Classification Report:
    macro avg       0.99      0.99      0.99       360
 weighted avg       0.99      0.99      0.99       360
 ```
+
+
+```
+Loading the Breast Cancer dataset...
+Data split into training and testing sets.
+------------------------------
+Initializing and training the SVM model...
+SVM model training complete.
+------------------------------
+Making predictions on the test set...
+Predictions complete.
+------------------------------
+Model Evaluation:
+Accuracy: 0.9561
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   malignant       0.97      0.91      0.94        43
+      benign       0.95      0.99      0.97        71
+
+    accuracy                           0.96       114
+   macro avg       0.96      0.95      0.95       114
+weighted avg       0.96      0.96      0.96       114
+```
