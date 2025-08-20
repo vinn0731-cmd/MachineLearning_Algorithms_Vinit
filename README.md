@@ -127,3 +127,30 @@ Classification Report:
    macro avg       0.96      0.95      0.95       114
 weighted avg       0.96      0.96      0.96       114
 ```
+
+
+```
+Loading the Wine dataset...
+Data split into training and testing sets.
+------------------------------
+Initializing and training the Random Forest model...
+Random Forest model training complete.
+------------------------------
+Making predictions on the test set...
+Predictions complete.
+------------------------------
+Model Evaluation:
+Accuracy: 1.0000
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     class_0       1.00      1.00      1.00        14
+     class_1       1.00      1.00      1.00        14
+     class_2       1.00      1.00      1.00         8
+
+    accuracy                           1.00        36
+   macro avg       1.00      1.00      1.00        36
+weighted avg       1.00      1.00      1.00        36
+
+```
