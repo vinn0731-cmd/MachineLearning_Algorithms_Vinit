@@ -71,3 +71,34 @@ Did not survive       0.00      0.00      0.00         1
 ```
 
 
+```
+Loading the Digits dataset...
+Data split into training and testing sets.
+------------------------------
+Initializing and training the KNN model...
+KNN model training complete.
+------------------------------
+Making predictions on the test set...
+Predictions complete.
+------------------------------
+Model Evaluation:
+Accuracy: 0.9861
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        33
+           1       1.00      1.00      1.00        28
+           2       1.00      1.00      1.00        33
+           3       1.00      1.00      1.00        34
+           4       0.98      1.00      0.99        46
+           5       0.98      0.96      0.97        47
+           6       0.97      1.00      0.99        35
+           7       1.00      0.97      0.99        34
+           8       1.00      1.00      1.00        30
+           9       0.95      0.95      0.95        40
+
+    accuracy                           0.99       360
+   macro avg       0.99      0.99      0.99       360
+weighted avg       0.99      0.99      0.99       360
+```
